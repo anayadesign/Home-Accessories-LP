@@ -33,6 +33,12 @@
         font-size: 62px;
         color: #666c75;
     }
+    .artful-kitchen h2 {
+        font-size: 69px;
+        color: #baac5d;
+    }
+
+
 
 .details p {
     font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
@@ -50,6 +56,7 @@
 }
     .carousel {
       width: 402px; /* width of visible slide(s) */
+      height: 345px; /* height of visible slide(s) */
       overflow: hidden;
       padding: 0;
       margin: 0 12px 0 0;
@@ -62,7 +69,7 @@
       margin: 0;
       padding: 0;
       list-style-type: none;
-      width: 4422px;
+      width: 4824px;  /* width of visible slide(s) x [total slides + # of visible slide(s)] */
       left: -402px; /* width of visible slide(s) */
       position: relative;
       list-style-type: none;
@@ -148,10 +155,12 @@
 .modern-lodge .lifestyle {
     background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-modern-bg.jpg) no-repeat;
 }
-
 .industrial-age .lifestyle {
     background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-industrial-bg.jpg) no-repeat;
 }
 .true-reflection .lifestyle {
     background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-reflection-bg.jpg) no-repeat;
+}
+.artful-kitchen .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-kitchen-bg.jpg) no-repeat;
 }
