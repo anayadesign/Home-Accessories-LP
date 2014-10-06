@@ -8,19 +8,27 @@
     padding-left: 10px;
 }
 
-.tab h2 {
+.copy-container h2 {
     font-family: Flood;
     font-weight: normal;
     font-style: normal;
+    margin: 0;
+    line-height: .7;
 }
-.modern-lodge h2 {
-    font-size: 75px;
-    color: #768376;
-}
+    .modern-lodge h2 {
+        font-size: 75px;
+        color: #768376;
+    }
+
+    .industrial-age h2 {
+        font-size: 61px;
+        color: #1b91b5;
+    }
 
 .copy-container p {
     font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
     color: #848383;
+    margin-top: 0;
 }
     .carousel {
       width: 402px; /* width of visible slide(s) */
@@ -31,7 +39,6 @@
       position: relative;
       z-index: 2;
       left: 0px;
-      top: 222px;
       float:left;
     }
     .slides {
