@@ -8,6 +8,11 @@
     padding-left: 10px;
 }
 
+.details {
+    width: 412px;
+    float: left;
+    }
+
 .copy-container h2 {
     font-family: Flood;
     font-weight: normal;
@@ -25,10 +30,19 @@
         color: #1b91b5;
     }
 
-.copy-container p {
+.details p {
     font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
     color: #848383;
     margin-top: 0;
+}
+.cta {
+    display: inline-block;
+    background: #000;
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 5px 15px;
 }
     .carousel {
       width: 402px; /* width of visible slide(s) */
@@ -39,7 +53,6 @@
       position: relative;
       z-index: 2;
       left: 0px;
-      float:left;
     }
     .slides {
       margin: 0;
