@@ -29,6 +29,10 @@
         font-size: 61px;
         color: #1b91b5;
     }
+    .true-reflection h2 {
+        font-size: 62px;
+        color: #666c75;
+    }
 
 .details p {
     font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
@@ -147,4 +151,7 @@
 
 .industrial-age .lifestyle {
     background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-industrial-bg.jpg) no-repeat;
+}
+.true-reflection .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-reflection-bg.jpg) no-repeat;
 }
