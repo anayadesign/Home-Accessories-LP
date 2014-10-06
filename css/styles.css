@@ -1,0 +1,130 @@
+.ha_header h2 {
+    font: normal normal 62px 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
+    display: inline-block;
+}
+.ha_header p {
+    font: italic normal 18px 'Times New Roman', Times, Georgia, serif;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.tab h2 {
+    font-family: Flood;
+    font-weight: normal;
+    font-style: normal;
+}
+.modern-lodge h2 {
+    font-size: 75px;
+    color: #768376;
+}
+
+.copy-container p {
+    font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
+    color: #848383;
+}
+    .carousel {
+      width: 402px; /* width of visible slide(s) */
+      overflow: hidden;
+      padding: 0;
+      margin: 0 12px 0 0;
+      visibility: visible;
+      position: relative;
+      z-index: 2;
+      left: 0px;
+      top: 222px;
+      float:left;
+    }
+    .slides {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 4422px;
+      left: -402px; /* width of visible slide(s) */
+      position: relative;
+      list-style-type: none;
+      z-index: 1;
+    }
+    .slide {
+      float: left;
+      width: 402px; /* width of visible slide(s) */
+      height: 345px; /* height of visible slide(s) */
+      padding: 0;
+      overflow: visible;
+      text-align:center;
+    }
+    .nav {
+        z-index: inherit;
+        position: relative;
+        top: 0;
+    }
+    .nav a,
+    .nav a:hover {
+        background-color: #767676;
+        color: #FFF;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        height: 24px;
+        width: 24px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 22px;
+    }
+
+    .nav a.active,
+    .nav a.active:hover {
+      background-color: #ef9223;
+      color: white;
+    }
+
+    a.prev, a.next {
+        position: absolute;
+        top: 107px;
+        z-index: 500;
+    }
+    a.next {
+        right: 0;
+    }
+
+/*  TAB STYLINGS*/
+
+
+.tabs-menu {
+    height: 30px;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs-menu li {
+    float: left;
+    margin-right: 13px;
+
+}
+
+.tab-container {
+    clear:both;
+}
+
+.tab {
+    display: none;
+}
+
+#tab1 {
+ display: block;
+}
+
+.lifestyle {
+    width: 596px;
+    height: 569px;
+    float:left;
+}
+.modern-lodge .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-modern-bg.jpg) no-repeat;
+}
+
+.industrial-age .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-industrial-bg.jpg) no-repeat;
+}
