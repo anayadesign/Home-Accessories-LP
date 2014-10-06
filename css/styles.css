@@ -146,7 +146,38 @@
 .tabs-menu li a {
     display:block;
     line-height: 0;
+    height: 242px;
+    width: 242px;
 }
+
+.tabs-menu li a[href="#tab1"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab1"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1_current.jpg) no-repeat;
+    }
+
+.tabs-menu li a[href="#tab2"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab2"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2_current.jpg) no-repeat;
+    }
+
+.tabs-menu li a[href="#tab3"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab3"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3_current.jpg) no-repeat;
+    }
+
+.tabs-menu li a[href="#tab4"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab4"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4_current.jpg) no-repeat;
+    }
+
 .tab-container {
     clear:both;
     height: 569px;

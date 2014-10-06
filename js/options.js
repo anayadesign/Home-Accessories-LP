@@ -68,9 +68,9 @@ $(document).ready(function() {
         $(tab).fadeIn(); //fade in the clicked tab
     });
 
-    $('img.tabthumb').click(function(){
+    /*$('img.tabthumb').click(function(){
         var src = this.src;
         this.src = src.indexOf('_current') == -1 ? src.replace('.jpg','_current.jpg') : src.replace('_current.jpg','.jpg');
-    });
+    });*/
 
 });
