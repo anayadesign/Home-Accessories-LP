@@ -64,8 +64,8 @@ $(document).ready(function() {
     var code = (e.keyCode ? e.keyCode : e.which);
 
     switch(code) {
-        case 37: $(".prev1, .prev2").trigger("click"); break; // left
-        case 39: $(".next1, .next2").trigger("click"); break; // right
+        case 37: $(".prev1, .prev2, .prev3, .prev4").trigger("click"); break; // left
+        case 39: $(".next1, .next2, .next3, .next4").trigger("click"); break; // right
 
     }
   });
