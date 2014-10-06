@@ -1,8 +1,5 @@
 $(document).ready(function() {
   var carousel1 = {
-    visible: 1,
-    speed: 300,
-    pause: true,
     btnGo: $('div.nav1').find('a'),
     btnPrev: function() {
       return $(this).find('.prev1');
@@ -13,9 +10,6 @@ $(document).ready(function() {
 
   };
   var carousel2 = {
-    visible: 1,
-    speed: 300,
-    pause: true,
     btnGo: $('div.nav2').find('a'),
     btnPrev: function() {
       return $(this).find('.prev2');
@@ -26,9 +20,6 @@ $(document).ready(function() {
 
   };
   var carousel3 = {
-    visible: 1,
-    speed: 300,
-    pause: true,
     btnGo: $('div.nav3').find('a'),
     btnPrev: function() {
       return $(this).find('.prev3');
@@ -39,9 +30,6 @@ $(document).ready(function() {
 
   };
   var carousel4 = {
-    visible: 1,
-    speed: 300,
-    pause: true,
     btnGo: $('div.nav4').find('a'),
     btnPrev: function() {
       return $(this).find('.prev4');

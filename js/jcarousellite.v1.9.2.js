@@ -596,7 +596,7 @@
     activeClass: 'active',          // class applied to the active slide and btnGo element
     visibleClass: 'vis',            // class applied to the btnGo elements corresponding to the visible slides
     mouseWheel: false,
-    speed: 200,
+    speed: 300,
     easing: null,
     timeout: 4000,
     auto: false,                    // true to enable auto scrolling; number to auto-scroll by different number at a time than that of scroll option
@@ -605,7 +605,7 @@
     pause: true,                    // pause scrolling on hover
     vertical: false,                // scroll vertically instead of horizontally
     circular: true,                 // continue scrolling when reach the last item
-    visible: 3,                     // the number to be visible at a given time.
+    visible: 1,                     // the number to be visible at a given time.
     start: 0,                       // index of item to show initially in the first posiition
     scroll: 1,                      // number of items to scroll at a time
     autoCSS: false,                 // whether to set initial styles on the carousel elements. See readme for info
