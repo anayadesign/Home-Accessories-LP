@@ -1,6 +1,7 @@
 .ha_header h2 {
     font: normal normal 62px 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
     display: inline-block;
+    margin-bottom:0;
 }
 .ha_header p {
     font: italic normal 18px 'Times New Roman', Times, Georgia, serif;
@@ -12,13 +13,18 @@
     width: 412px;
     float: left;
     }
-
+.copy-container {
+    padding: 0 55px 0 25px;
+}
 .copy-container h2 {
     font-family: Flood;
     font-weight: normal;
     font-style: normal;
     margin: 0;
     line-height: .7;
+}
+.copy-container p {
+    margin: 0;
 }
     .modern-lodge h2 {
         font-size: 75px;
@@ -69,7 +75,7 @@
       margin: 0;
       padding: 0;
       list-style-type: none;
-      width: 4824px;  /* width of visible slide(s) x [total slides + # of visible slide(s)] */
+      width: 4824px;  /* width of visible slide(s) x [largest number of slides in a carousel + 2] */
       left: -402px; /* width of visible slide(s) */
       position: relative;
       list-style-type: none;
@@ -122,7 +128,7 @@
 
 
 .tabs-menu {
-    height: 30px;
+    height: 242px;
     clear: both;
     list-style: none;
     padding: 0;
@@ -132,11 +138,19 @@
 .tabs-menu li {
     float: left;
     margin-right: 13px;
-
+}
+.tabs-menu li:last-child {
+    margin:0;
 }
 
+.tabs-menu li a {
+    display:block;
+    line-height: 0;
+}
 .tab-container {
     clear:both;
+    height: 569px;
+    margin-bottom: 13px
 }
 
 .tab {
