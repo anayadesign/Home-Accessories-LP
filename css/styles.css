@@ -1,0 +1,246 @@
+.ha_header h2 {
+    font: normal normal 62px 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
+    display: inline-block;
+    margin-bottom:0;
+}
+.ha_header p {
+    font: italic normal 18px 'Times New Roman', Times, Georgia, serif;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.details {
+    width: 412px;
+    float: left;
+    }
+.copy-container {
+    padding: 0 55px 0 25px;
+}
+.copy-container h2 {
+    font-family: Flood;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    line-height: .8;
+}
+.copy-container p {
+    margin: 0;
+    padding-top: 10px;
+}
+    .modern-lodge h2 {
+        font-size: 75px;
+        color: #768376;
+    }
+
+    .industrial-age h2 {
+        font-size: 61px;
+        color: #1b91b5;
+    }
+    .true-reflection h2 {
+        font-size: 62px;
+        color: #666c75;
+    }
+    .artful-kitchen h2 {
+        font-size: 69px;
+        color: #baac5d;
+    }
+
+
+
+.details p, footer p {
+    font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
+    color: #848383;
+    margin-top: 0;
+}
+.cta {
+    text-decoration: none;
+    display: inline-block;
+    background: #000;
+    color: #FFF;
+    font-family: 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 5px 15px;
+}
+    .cta-big {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 26px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing:    border-box;
+        box-sizing:         border-box;
+    }
+    .carousel {
+      width: 402px; /* width of visible slide(s) */
+      height: 345px; /* height of visible slide(s) */
+      overflow: hidden;
+      padding: 0;
+      margin: 0 12px 0 0;
+      visibility: visible;
+      position: relative;
+      z-index: 2;
+      left: 0px;
+    }
+    .slides {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 4824px;  /* width of visible slide(s) x [largest number of slides in a carousel + 2] */
+      left: -402px; /* width of visible slide(s) */
+      position: relative;
+      list-style-type: none;
+      z-index: 1;
+    }
+    .slide {
+      float: left;
+      width: 402px; /* width of visible slide(s) */
+      height: 345px; /* height of visible slide(s) */
+      padding: 0;
+      overflow: visible;
+      text-align:center;
+    }
+    .nav {
+        z-index: inherit;
+        position: relative;
+        top: 0;
+    }
+    .nav a,
+    .nav a:hover {
+        background-color: #767676;
+        color: #FFF;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        height: 24px;
+        width: 24px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 22px;
+    }
+
+    .nav a.active,
+    .nav a.active:hover {
+      background-color: #ef9223;
+      color: white;
+    }
+
+    a.prev, a.next {
+        position: absolute;
+        top: 107px;
+        z-index: 500;
+    }
+    a.next {
+        right: 0;
+    }
+
+/*  TAB STYLINGS*/
+
+
+.tabs-menu {
+    height: 242px;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs-menu li {
+    float: left;
+    margin-right: 13px;
+}
+.tabs-menu li:last-child {
+    margin:0;
+}
+
+.tabs-menu li a {
+    display:block;
+    line-height: 0;
+    height: 242px;
+    width: 242px;
+}
+
+.tabs-menu li a[href="#tab1"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab1"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1_current.jpg) no-repeat;
+    }
+
+.tabs-menu li a[href="#tab2"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab2"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2_current.jpg) no-repeat;
+    }
+
+.tabs-menu li a[href="#tab3"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab3"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3_current.jpg) no-repeat;
+    }
+
+.tabs-menu li a[href="#tab4"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4.jpg) no-repeat;
+}
+    .tabs-menu li.current a[href="#tab4"] {
+        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4_current.jpg) no-repeat;
+    }
+
+.tab-container {
+    clear:both;
+    height: 569px;
+    margin-bottom: 13px
+}
+
+.tab {
+    display: none;
+}
+
+#tab1 {
+ display: block;
+}
+
+.lifestyle {
+    width: 596px;
+    height: 569px;
+    float:left;
+}
+.modern-lodge .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-modern-bg.jpg) no-repeat;
+}
+.industrial-age .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-industrial-bg.jpg) no-repeat;
+}
+.true-reflection .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-reflection-bg.jpg) no-repeat;
+}
+.artful-kitchen .lifestyle {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-kitchen-bg.jpg) no-repeat;
+}
+
+footer {
+    border-top: 1px solid #000;
+    padding-top:28px;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font: normal normal 39px 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
+    margin:0;
+}
+
+footer .third {
+    width: 328px;
+    height: 106px;
+    margin-right: 13px;
+    float: left;
+}
+footer .third:last-child {
+    margin:0;
+}
