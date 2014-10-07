@@ -21,10 +21,11 @@
     font-weight: normal;
     font-style: normal;
     margin: 0;
-    line-height: .7;
+    line-height: .8;
 }
 .copy-container p {
     margin: 0;
+    padding-top: 10px;
 }
     .modern-lodge h2 {
         font-size: 75px;
@@ -46,20 +47,33 @@
 
 
 
-.details p {
+.details p, footer p {
     font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
     color: #848383;
     margin-top: 0;
 }
 .cta {
+    text-decoration: none;
     display: inline-block;
     background: #000;
     color: #FFF;
-    font-family: Bebas Neue;
+    font-family: 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
+    font-weight: normal;
     font-size: 24px;
     line-height: 1.4;
     padding: 5px 15px;
 }
+    .cta-big {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 26px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing:    border-box;
+        box-sizing:         border-box;
+    }
     .carousel {
       width: 402px; /* width of visible slide(s) */
       height: 345px; /* height of visible slide(s) */
@@ -208,4 +222,25 @@
 }
 .artful-kitchen .lifestyle {
     background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/ls-kitchen-bg.jpg) no-repeat;
+}
+
+footer {
+    border-top: 1px solid #000;
+    padding-top:28px;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font: normal normal 39px 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
+    margin:0;
+}
+
+footer .third {
+    width: 328px;
+    height: 106px;
+    margin-right: 13px;
+    float: left;
+}
+footer .third:last-child {
+    margin:0;
 }
