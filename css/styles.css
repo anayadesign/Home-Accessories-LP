@@ -1,20 +1,41 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ha_header {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/headerproducts.jpg) no-repeat;
+    background-position: bottom right;
+    height: 250px;
+}
 .ha_header h2 {
     font: normal normal 62px 'BebasNeueRegular', BebasNeueRegular, 'Bebas Neue', BebasNeue, Bebas, Arial, sans-serif;
     display: inline-block;
-    margin-bottom:0;
+    margin:0;
     color: #000;
 }
 .ha_header p {
+    width:475px;
     font: italic normal 18px 'Times New Roman', Times, Georgia, serif;
-    display: inline-block;
     padding-left: 10px;
-    color: #000;
+    color: #848383;
 }
+.ha_header h2 + p {
+    margin-top: 0;
+    }
 
 .details {
     width: 412px;
     float: left;
     }
+
+.details p, .ha_footer p {
+    font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
+    color: #848383;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .copy-container {
     padding: 0 40px 0 25px;
 }
@@ -28,6 +49,7 @@
 .copy-container p {
     margin: 0;
     padding-top: 10px;
+    font-style: italic;
 }
     .modern-lodge h2 {
         font-size: 75px;
@@ -44,15 +66,9 @@
     }
     .artful-kitchen h2 {
         font-size: 69px;
-        color: #baac5d;
+        color: #94B759;
     }
 
-.details p, .ha_footer p {
-    font: normal normal 18px 'Times New Roman', Times, Georgia, serif;
-    color: #848383;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
 .cta, .cta:active {
     text-decoration: none;
     display: inline-block;
@@ -68,7 +84,7 @@
     color: #FFF;
     text-decoration: none;
 }
-    .cta-big {
+    .cta-big, .cta-big:active {
         width: 100%;
         height: 100%;
         padding: 0;
@@ -140,7 +156,7 @@
         background-color: #666c75;}
     .artful-kitchen .nav a,
     .artful-kitchen .nav a:hover {
-        background-color: #baac5d;}
+        background-color: #94B759;}
 
     .nav a.active,
     .nav a.active:hover {
@@ -183,38 +199,57 @@
     width: 242px;
 }
 
-.tabs-menu li a[href="#tab1"] {
-    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1.jpg) no-repeat;
-}
-    .tabs-menu li.current a[href="#tab1"] {
-        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1_current.jpg) no-repeat;
+@media only screen and (min-device-width : 1024px)  {
+    .tabs-menu li a[href="#tab1"]:hover,
+    .tabs-menu li a[href="#tab2"]:hover,
+    .tabs-menu li a[href="#tab3"]:hover,
+    .tabs-menu li a[href="#tab4"]:hover {
+        background-position: center;
     }
 
+}
+
+.tabs-menu li a[href="#tab1"] {
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb1_sprite.jpg) no-repeat;
+    background-position: top;
+}
+    .tabs-menu li.current a[href="#tab1"] {
+        background-position: bottom;
+    }
+
+
 .tabs-menu li a[href="#tab2"] {
-    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2.jpg) no-repeat;
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2_sprite.jpg) no-repeat;
+    background-position: top;
 }
     .tabs-menu li.current a[href="#tab2"] {
-        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb2_current.jpg) no-repeat;
+        background-position: bottom;
     }
 
 .tabs-menu li a[href="#tab3"] {
-    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3.jpg) no-repeat;
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3_sprite.jpg) no-repeat;
+    background-position: top;
 }
     .tabs-menu li.current a[href="#tab3"] {
-        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb3_current.jpg) no-repeat;
+        background-position: bottom;
     }
 
+
 .tabs-menu li a[href="#tab4"] {
-    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4.jpg) no-repeat;
+    background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4_sprite.jpg) no-repeat;
+    background-position: top;
 }
     .tabs-menu li.current a[href="#tab4"] {
-        background: url(http://cache1.artprintimages.com/images/jump_pages/HomeAccessories/thumb4_current.jpg) no-repeat;
+        background-position: bottom;
     }
 
 .tab-container {
     clear:both;
     height: 569px;
-    margin-bottom: 13px
+    margin-bottom: 15px;
+    border-top: 1px solid #000;
+    padding-top:30px;
+    margin-top: 30px;
 }
 
 .tab {
@@ -246,7 +281,8 @@
 
 .ha_footer {
     border-top: 1px solid #000;
-    padding-top:28px;
+    padding-top:30px;
+    padding-bottom: 20px;
     margin-top: 30px;
 }
 
@@ -265,6 +301,15 @@
 .ha_footer .third:last-child {
     margin:0;
 }
+
+.disclaimer {
+    color: #cdcdcd;
+    padding-top: 25px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+
 a[data-pin-log="button_pinit"] {
     position: absolute !important;
     top: 15px;

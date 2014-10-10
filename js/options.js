@@ -60,17 +60,12 @@ $(document).ready(function() {
 
   //Tabs!
     $(".tabs-menu a").click(function(event) {
-        event.preventDefault(); //don't redirect to the href
-        $(this).parent().addClass("current");
-        $(this).parent().siblings().removeClass("current");
+        event.preventDefault();                           //don't redirect to the href
+        $(this).parent().addClass("current");               //adds .current to the parent li
+        $(this).parent().siblings().removeClass("current"); //remove .current from other li's
         var tab = $(this).attr("href");
-        $(".tab").not(tab).css("display", "none"); //tabs that are not THIS - hide
-        $(tab).fadeIn(); //fade in the clicked tab
+        $(".tab").not(tab).css("display", "none");          //tab contents that are not THIS - hide
+        $(tab).fadeIn();                                    //fade in the clicked tab
     });
-
-    /*$('img.tabthumb').click(function(){
-        var src = this.src;
-        this.src = src.indexOf('_current') == -1 ? src.replace('.jpg','_current.jpg') : src.replace('_current.jpg','.jpg');
-    });*/
 
 });
