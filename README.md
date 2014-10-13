@@ -7,5 +7,4 @@
 * v1.1
 
 ### Author ###
-
-* David Anaya
+David Anaya
